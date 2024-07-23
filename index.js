@@ -6,7 +6,7 @@ import { getDatabase,
     remove } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-database.js"
 
 const firebaseConfig = {
-    databaseURL: process.env.OPENAI_API_KEY
+    databaseURL: "https://leads-tracker-app-ae08b-default-rtdb.firebaseio.com/"
 }
 
 const app = initializeApp(firebaseConfig)
